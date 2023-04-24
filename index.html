@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Câu 1: Bài Tập về Iframe</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d119188.1624510495!2d105.62362308300524!3d21.007460632742603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d21.057758399999997!2d105.5992677!4m5!1s0x3135accdd8a1ad71%3A0xa2f9b16036648187!2zSOG7jWMgdmnhu4duIEPDtG5nIG5naOG7hyBCxrB1IGNow61uaCB2aeG7hW4gdGjDtG5nLCBUcuG6p24gUGjDuiwgTeG7mSBMYW8sIEjDoCDEkMO0bmcsIEjDoCBO4buZaQ!3m2!1d20.9809035!2d105.7874379!5e0!3m2!1sen!2s!4v1679554113549!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h2>Câu 2: Bài tập về form</h2>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="POST" autocomplete="off">
+        <label for="name">Họ Tên:</label> <br>
+        <input type="text" id="name" name="ho-ten" placeholder="Ví dụ: levana" required><br>
+        <label for="email">Email:</label> <br>
+        <input type="email" id="email" name="email" placeholder="Ví dụ: levana@gmail.com" required><br>
+        <label for="matkhau">Mật khẩu:</label> <br>
+        <input type="password" id="matkhau" name="mat-khau" required><br>
+        <button>Đăng ký</button>
+    </form>
+    <br><br>
+    <form action="https://www.w3schools.com/action_page.php" method="get" target="_blank" autocomplete="off">
+        <input type="text" name="noi-dung-tim-kiem" placeholder="Nhập nội dung tìm kiếm..." required>
+        <input type="submit" value="Tìm kiếm">
+    </form>
+    <h2>Câu 3: Bài Tập Ôn Tập kiếm thức về form</h2>
+    <label for="Kieu-text">Kiểu text:</label><br>
+    <input type="text" id="Kieu-text" name="kiểu text" placeholder="Nhập họ tên..."><br><br>
+    <label for="Kieu-email">Kiểu email:</label><br>
+    <input type="email" id="Kieu-email" name="Kiểu email" placeholder="Nhập email"><br><br>
+    <label for="Kieu-password">Kiểu password</label><br>
+    <input type="password" id="Kieu-password" name="Kiểu password"><br><br>
+    <label for="Kieu-number">Kiểu number:</label><br>
+    <input type="number" id="Kieu-number" name="Kiểu number"><br><br>
+    <label for="Kieu-date">Kiểu date:</label><br>
+    <input type="date" id="Kieu-date" name="Kiểu date"><br><br>
+    <label for="Kieu-time">Kiểu time:</label><br>
+    <input type="time" id="Kieu-time" name="Kiểu time"><br><br>
+    <label for="Kieu-file">Kiểu file:</label><br>
+    <input type="file" id="Kieu-file" name="Kiểu file"><br><br>
+    <form action="https://www.w3schools.com/action_page.php" method="get" target="_blank" autocomplete="off">
+    <label for="Kieu-radio">Kiểu radio:</label><br>
+    <input type="radio" id="Nam" name="giới tính" value="Nam"> <label for="giới tính">Nam</label> <br>
+    <input type="radio" id="Nữ" name="giới tính" value="Nữ"> <label for="giới tính">Nữ</label> <br>
+    <input type="radio" id="Khác" name="giới tính" value="Khác"> <label for="giới tính">Khác</label> <br>
+    <!-- <button>Gửi</button> -->
+    </form>
+    <br>
+    <label for="Kieu-range">Kiểu range:</label><br>
+    <input type="range" id="Kieu-range" name="Kiểu range"><br>
+    <label for="clothes">Chọn danh mục:</label><br>
+    <select name="loại" id="clothes">
+        <option value="Quần">Quần</option>
+        <option value="Áo">Áo</option>
+        <option value="Cả 2">Cả 2</option>
+    </select>
+    <br><br>
+    <label for=""><b>-Thẻ textarea(có cols=30 và rows=10):</b></label><br><br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="post" autocomplete="on" novalidate>
+        <b>Student Registeration Form</b>
+        <br/><br>
+        <label for="Firstname">Firstname:</label>
+        <br/>
+        <input type="text" id="Firstname" name="first-name" placeholder="Firstname">
+        <br><br>
+        <label for="middlename">Middlename:</label>
+        <br/>
+        <input type="text" id="middlename" name="middle-name" placeholder="Middlename">
+        <br/><br/>
+        <label for="Lastname">Lastname:</label>
+        <br/>
+        <input type="text" id="Lastname" name="Last-name" placeholder="Lastname">
+        <br><br>
+        <label for="Course">Course:</label>
+        <select>
+            <option value="0" selected>course</option>
+            <option value="1">course 1</option>
+            <option value="2">course 2</option>
+        </select>
+        <br><br>
+        <label for="">Gendel:</label><br>
+        <input type="radio" id="male" name="sex" value="male"> <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="female"> <label for="female">female</label>
+        <input type="radio" id="Other" name="sex" value="Other"> <label for="Other">Other</label>
+        <br>
+
+
+        <label for="phone">phone:</label>
+        <input type="number" id="phone" name="phone">
+        <br><br>
+        <label for="current address">current Address:</label>
+        <br>
+        <textarea name="Current Address" id="current address" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="email"><b>Email</b></label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="password"><b>Password</b></label>
+        <br>
+        <input type="password" id="password" name="pass-word">
+        <br><br>
+        <label for="re-type Password"><b>Re-type Password</b></label>
+        <br>
+        <input type="password" id="re-type Password" name="Re-type password">
+        <br>
+        <button>Register</button>
+        <!-- button=<input type="submit" value="gui"> -->
+
+    </form>
+    <h1>Đăng ký thành viên</h1>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="post" autocomplete="on" novalidate>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="Họ tên">Họ Tên:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Họ tên" name="Họ-tên">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mật khẩu">Mật khẩu:</label></td>
+                    <td><input type="password" id="mật khẩu" name="pass-word"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Giới Tính</label></td>
+                    <td>
+                        <input type="radio" id="Nam" name="giới tính" value="Nam">
+                        <label for="Nam">Nam</label>
+                        <input type="radio" id="Nữ" name="giới tính" value="Nữ">
+                        <label for="Nữ">Nữ</label>
+                        <input type="radio" id="Khác" name="giới tính" value="Khác">
+                        <label for="Khác">Khác</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Sở Thích</label></td>
+                    <td>
+                        <input type="checkbox" id="xp" name="Sở Thích" value="Xem phim">
+                        <label for="xp">Xem phim</label> <br>
+                        <input type="checkbox" id="ds" name="Sở Thích" value="Đọc sách">
+                        <label for="ds">Đọc sách</label><br>
+                        <input type="checkbox" id="Nn" name="Nghe Nhạc" value="Nghe Nhạc">
+                        <label for="Nn">Nghe Nhạc</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tuổi">Tuổi:</label></td>
+                    <td><input type="number" id="tuổi" name="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="Từ khóa tìm kiếm">Từ khóa tìm<br>kiếm:</label></td>
+                    <td><input type="text" id="Từ khóa tìm kiếm" name="tu-khoa-tim-kiem"></td>
+                </tr>
+                <tr>
+                    <td><label for="Giới thiệu bản thân">Giới thiệu bản<br>thân:</label></td>
+                    <td>
+                        <textarea name="gioi-thieu-ban-than" id="Giới thiệu bản thân" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email có thể<br>liên hệ:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="web">Địa chỉ web<br>của bạn:</label></td>
+                    <td><input type="text" id="web" name="web-cua-ban"></td>
+                </tr>
+                <tr>
+                    <td><label for="sodienthoai">Số điện thoại:</label></td>
+                    <td><input type="number" id="sodienthoai" name="so-dien-thoai"></td>
+                </tr>
+                <tr>
+                    <td><label>Các loại chọn<br>thời gian:</label></td>
+                    <td>
+                        <br><b>Ngày tháng</b> <br><br>
+                        <label for="chonngay">chọn ngày:</label>
+                        <input type="date" id="chonngay" name="chon-ngay">
+                        <!-- <label for="chonthang">chonthang:</label>
+                        <input type="datetime-local" -->
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mauyeuthich">Màu yêu thích:</label></td>
+                    <td>
+                        <input type="color">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="vitri">Bạn đang sinh<br>sống ở<br>TP/Tỉnh nào?</label></td>
+                    <td><input type="text" id="vitri" name="vi-tri"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
